@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.0f0ec439-7fb1-4a2b-8866-d0be8daae82f",
+      "was_cloned": true,
+      "resources": {
+        "manifest": {
+          "eTag": "ce56d3ba86d182aed327b913ae92d3d9"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "936a51cbef4d05c819e9cf9b34fca3ed"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:983662908997:function:FallCreek",
+            "awsRegion": "us-east-1",
+            "functionName": "FallCreek",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "c3f6af18-5aef-47fc-9e3c-d62fe1d37580"
+          }
+        ]
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:983662908997:function:FallCreek"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

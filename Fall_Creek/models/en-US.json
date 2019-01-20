@@ -1,0 +1,61 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "fall creek",
+      "intents": [
+        {
+          "name": "WhatsForLunchIntent",
+          "slots": [
+            {
+              "name": "Date",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "what is on the lunch menu for {Date}",
+            "what's for lunch {Date}",
+            "what's for lunch on {Date}",
+            "what is the menu for {Date}",
+            "what's the lunch menu for {Date}",
+            "what is the lunch menu for {Date}",
+            "what is on the menu for {Date}",
+            "what's on the menu for {Date}",
+            "what's on the lunch menu for {Date}"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "JustDateIntent",
+          "slots": [
+            {
+              "name": "Date",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "{Date}"
+          ]
+        }
+      ]
+    }
+  }
+}
