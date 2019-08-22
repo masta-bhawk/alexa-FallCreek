@@ -1,28 +1,5 @@
 {
   "manifest": {
-    "publishingInformation": {
-      "locales": {
-        "en-US": {
-          "summary": "Local Fall Creek info, including current school lunch menu",
-          "examplePhrases": [
-            "Alexa, ask fall creek what's for lunch tomorrow",
-            "Alexa, ask Fall Creek what's for lunch next Thursday",
-            "Alexa, ask Fall Creek what is on the lunch menu today"
-          ],
-          "keywords": [],
-          "name": "Fall Creek",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/34c2/db06eeb5584344b091ac8e2892b0af03/APP_ICON?versionId=7WTrZkYTfsajH_J5V.ZOHSQHuE4OO2w9&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1548030152&Signature=ASL3cU6mIIk27Twf0aeeCtFiNek%3D",
-          "description": "Provides information relevant to residents living in Fall Creek.  Primarily used to get the local elementary school lunch menu.",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dafa/e8b0285e57024db1aaf0341a84a1ef0e/APP_ICON_LARGE?versionId=7Ij_W76RzyAU8qy4FkcTq9uAEeOGUGzO&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1548030152&Signature=d9vUFRlYkbWzwr8Xu0oCWJiDsJY%3D"
-        }
-      },
-      "isAvailableWorldwide": false,
-      "testingInstructions": "Simple skill to respond with school lunch menu for neighborhood schools for the current month.  No special testing instructions required.",
-      "category": "EDUCATION_AND_REFERENCE",
-      "distributionCountries": [
-        "US"
-      ]
-    },
     "apis": {
       "custom": {
         "endpoint": {
@@ -34,10 +11,33 @@
     "manifestVersion": "1.0",
     "privacyAndCompliance": {
       "allowsPurchases": false,
-      "isExportCompliant": true,
-      "containsAds": false,
+      "usesPersonalInfo": false,
       "isChildDirected": false,
-      "usesPersonalInfo": false
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Fall Creek",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/34c2/db06eeb5584344b091ac8e2892b0af03/APP_ICON?versionId=7WTrZkYTfsajH_J5V.ZOHSQHuE4OO2w9&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190821T231229Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190821%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e15db4b4327ae39866687d2d46da810d5459fd9cafdf1774baa2b1b62e70cc73",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dafa/e8b0285e57024db1aaf0341a84a1ef0e/APP_ICON_LARGE?versionId=7Ij_W76RzyAU8qy4FkcTq9uAEeOGUGzO&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190821T231229Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190821%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=68e03535e530cbdbe977dec8f0a92a3c80fa9f6a25483a86c5aa7b697a4f968d",
+          "summary": "Local Fall Creek info, including current school lunch menu",
+          "description": "Provides information relevant to residents living in Fall Creek.  Primarily used to get the local elementary school lunch menu.",
+          "examplePhrases": [
+            "Alexa, ask fall creek what's for lunch tomorrow",
+            "Alexa, ask Fall Creek what's for lunch next Thursday",
+            "Alexa, ask Fall Creek what is on the lunch menu today"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Simple skill to respond with school lunch menu for neighborhood schools for the current month.  No special testing instructions required.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": [
+        "US"
+      ]
     }
   }
 }

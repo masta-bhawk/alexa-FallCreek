@@ -121,7 +121,7 @@ function handleWhatsForLunchRequest(intent, session, callback) {
   //  var menu = getLunchMenu(date);
 
     const datestr = formatDateToString(new Date(date));
-    const url = 'https://webapis.schoolcafe.com/api/CalendarView/GetDailyMenuitems?SchoolId=ec3b8fd1-a985-41b8-996a-15d3e1dce111&ServingDate=' + datestr + '&ServingLine=TRADITIONAL%20SUPER%20STAR%20CAFE%20(PRE-K%20NO%20OVS)&MealType=Lunch';
+    const url = 'https://webapis.schoolcafe.com/api/CalendarView/GetDailyMenuitems?SchoolId=ec3b8fd1-a985-41b8-996a-15d3e1dce111&ServingDate=' + datestr + '&ServingLine=HOMESTYLE%20CAFE%20(PRE-K%20NO%20OVS)&MealType=Lunch';
     const fetch = require('node-fetch');
 
     fetch(url).then(function(response) {
